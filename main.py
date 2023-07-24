@@ -69,7 +69,7 @@ def menu():
 def main():
     menu()
     while(True):
-        cnc = input(f"""\033[30;47m\033[30m\033[30mDr3yKoV \033[0m\033[30;47m\033[30m● \033[0m\033[30;47m\033[30mC2\033[0m\033[30;47m\033[30m ➤➤ \033[0m""")
+        cnc = input(f"""\033[30;47m\033[30m\033[1;31mDr3yKoV \033[0m\033[30;47m\033[30m● \033[0m\033[30;47m\033[30mC2\033[0m\033[30;47m\033[30m ➤➤ \033[0m""")
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
         elif cnc == "layer4" or cnc == "LAYER4" or cnc == "L4" or cnc == "l4":
